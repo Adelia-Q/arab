@@ -1,0 +1,31 @@
+.sidebar {
+  width: 260px;
+  height: calc(100vh - 80px); /* Высота экрана минус высота хедера */
+  background-color: #1F2937;
+  color: white;
+  padding: 20px;
+  border-right: 2px solid #2C3544;
+}
+
+.sidebar-title {
+  color: #9CA3AF;
+  font-size: 14px;
+  margin: 20px 0 10px 0;
+}
+
+.language-list, .menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.language-list li, .menu-list li {
+  padding: 8px 12px;
+  margin: 4px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.language-list li:hover, .menu-list li:hover {
+  background-color: #374151;
+}
